@@ -6,7 +6,7 @@
         $message = $_REQUEST['message'];
 
       // Set your email address where you want to receive emails. 
-       $to = 'helpdesk@littlewebco.com';
+       $to = 'helpdesk@little.cloud';
        $subject = 'LCC:';
        $headers = "From: ".$name." <".$email."> \r\n";
        $send_email = mail($to,$subject,$message,$headers,$why);
