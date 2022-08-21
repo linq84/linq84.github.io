@@ -1,14 +1,8 @@
 /*------------------------------------------------------------------
  * template Name: lwc_1
  -------------------------------------------------------------------*/
- html, body {
-    height: 100%;
-    width: 100%;
-    background-color: #25293c;
-    color: white;
-  }
-  
-  .search {
+
+  .hns-search {
     margin-top: 100px;
     margin-bottom: 100px;
     display: flex;
@@ -16,7 +10,7 @@
     align-items: center;
   }
   
-  .searchbox {
+  .hns-searchbox {
     font-size: 14px;
     font-family: 'Ubuntu';
     font-weight: 700;
@@ -29,10 +23,7 @@
     outline: 0;
     text-align: center;
   }
-  
-  input::placeholder {
-      color: #00ffb3;
-  }
+
   
   
   .extension {
@@ -149,7 +140,7 @@
     background-color: white;
   }
   
-  .title {
+  .hns-title {
     margin-top: 50px;
     padding: 10px;
     display: flex;
@@ -160,7 +151,7 @@
     color: white;
   }
   
-  .subtitle {
+  .hns-subtitle {
     padding: 2px;
     margin-bottom: 2px;
     display: flex;
@@ -171,7 +162,7 @@
     opacity: 50%;
   }
   
-  .subsubtitle {
+  .hns-subsubtitle {
     padding: 2px 7px 2px 7px;
     display: flex;
     justify-content: center;
@@ -195,7 +186,7 @@
   
   
   
-  button {
+  hns-button {
     background-color: transparent;
     border-radius: 10px;
     border: 1px solid transparent;
@@ -206,7 +197,7 @@
     color: #242424;
   }
   
-  .footer {
+  .hns-footer {
     padding: 2px;
     margin-top: 100px;
     display: flex;
@@ -217,13 +208,13 @@
     color: #ffffff50;
   }
   
-  .footer a {
+  .hns-footer a {
     color: #00ffb3;
     text-decoration: none;
     margin-left: 10px;
   }
   
-  .footer a:hover {
+  .hns-footer a:hover {
     background-color: #00ffb350;
     transition: all 1s ease;
   }
@@ -231,11 +222,11 @@
   
   @media (min-width: 320px) and (max-width: 1000px) {
   
-    .subsubtitle, .searchbox {
+    .hns-subsubtitle, .hns-searchbox {
       width: 40%;
     }
   
-    .title {
+    .hns-title {
       font-size: 30px;
     }
     
