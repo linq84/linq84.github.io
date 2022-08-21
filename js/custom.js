@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function handleKeyDown() {
-	if (event.key === 'Enter') {
-	  location.href = "https://impervious.domains/name/" + event.target.value + ".wwww/register/";
-	}
+    if (event.key === 'Enter') {
+      location.href = "https://impervious.domains/name/" + event.target.value + ".lilnode/register/";
+    }
   };
 
 	
