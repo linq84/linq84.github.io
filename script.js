@@ -1,5 +1,5 @@
 function handleKeyDown() {
   if (event.key === 'Enter') {
-    location.href = "https://impervious.domains/name/" + event.target.value + ".lilnode/register/";
+    location.href = "https://impervious.domains/search/" + event.target.value;
   }
 };
