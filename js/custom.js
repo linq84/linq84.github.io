@@ -1,9 +1,6 @@
 /*------------------------------------------------------------------
- * Theme Name: emyUI - Multipurpose UI Kit for Web Hosting providers with WHMCS Template
- * Author: coodiv (nedjai mohamed) (nbames.mohamed@gmail.com)
- * Author URI: https://coodiv.net/
- * Author URI: https://themeforest.net/user/coodiv
- * Js file Version: 1.0
+
+ * Js file Version: 1.1
  -------------------------------------------------------------------*/
 
 "use strict";
@@ -13,7 +10,11 @@ document.addEventListener('DOMContentLoaded', function() {
 	if(jQuery("#dinamic-filter-list").length > 0) {FilterListSection();}
 });
 
-
+function handleKeyDown() {
+    if (event.key === 'Enter') {
+      location.href = "https://impervious.domains/name/" + event.target.value + ".lilnode/register/";
+    }
+  };
 
 	
 	
